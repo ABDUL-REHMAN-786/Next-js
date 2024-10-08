@@ -9,7 +9,7 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 
 // Default export of the ColorPickerComponent function
-export default function ColorPickerComponent() {
+export default function ColorPicker() {
   // State hook for managing the selected color
   const [color, setColor] = useState<string>("#000000");
 
